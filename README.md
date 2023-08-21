@@ -74,6 +74,20 @@ The command ```riscv64-unknown-elf-gcc``` is used to generate the object file su
 ```q```  is used to quit the debugging process
 
 
+### Lab 2
+#### Contents: 
+
+To display max and min value of 64 bit signed and unsigned numbers.
+
+##### Unsigned numbers:
+
+They are non-negative numbers which only have magnitude and no sign or direction.
+Range:[0,(2^n)-1]
+
+##### Signed numbers:
+
+Signed numbers are numerical values which can represent positive and negative numbers along with zero.
+Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
 
 
 
