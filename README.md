@@ -94,6 +94,14 @@ Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
   ![unsigned_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/85744544-05cc-414c-8b13-588eb929631a)
 
   Output:
+  
+  ![unsigned_op](https://github.com/ananya343B/pes_asic_class/assets/142582353/b23b9188-9baa-4cd0-a98d-566ab642dd98)
+
+- C Program to find max and min 64 bit signed number:
+
+  ![signed_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/6ee35461-849f-45fb-aeac-6f5c86a78ab9)
+
+  Output:
 
   
 
