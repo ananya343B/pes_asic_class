@@ -89,7 +89,12 @@ Range:[0,(2^n)-1]
 Signed numbers are numerical values which can represent positive and negative numbers along with zero.
 Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
 
+- C Program to find max and min of 64 bit unsigned number:
 
+  ![unsigned_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/85744544-05cc-414c-8b13-588eb929631a)
+
+  Output:
 
   
+
 
