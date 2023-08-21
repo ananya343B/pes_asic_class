@@ -103,6 +103,5 @@ Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
 
   Output:
 
-  
-
+  ![signed_op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5cadeae9-df14-4c5d-845d-5af1826195ff)
 
