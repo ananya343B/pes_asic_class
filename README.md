@@ -3,9 +3,7 @@
 
 # PES_ASIC_CLASS
 
-Physical VLSI Design for ASIC
-
-#Course objectives
+Physical VLSI Design for ASIC.
 
 The repository is a guide for ASIC flow from basics.
 
