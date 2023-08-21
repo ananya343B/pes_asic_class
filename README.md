@@ -6,8 +6,8 @@
 Physical VLSI Design for ASIC.
 
 The repository is a guide for ASIC flow from basics.
-
-# Introduction
+# Day 1
+### Introduction
 ### Flow : HLL -> ALP -> Binary -> (HDL) -> GDS
 #### 1. HLL -> High level language (c , c++) 
 - A high-level language is any programming language that enables development of a program in a much more user-friendly programming context and is generally independent of the computer's hardware architecture.
