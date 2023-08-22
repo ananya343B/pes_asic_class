@@ -201,4 +201,10 @@ In this Example
 - `x8` is the destination register.
 - `x24` and `x8` are the source registers.
 
-  
+  ### 32-Registers and their ABI Names
+The choice of the number of registers in a processor's architecture, such as the RISC-V RV64 architecture with its 32 general-purpose registers, involves a trade-off between various factors. While modern processors can have more registers but increasing the number of registers could lead to larger instructions, which would take up more memory and potentially slow down instruction fetch and decode.
+
+###### ABI Names
+ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
+
+![th4](https://github.com/ananya343B/pes_asic_class/assets/142582353/9772d6fe-b73c-4b29-b17f-2fc39a7db8d3)
