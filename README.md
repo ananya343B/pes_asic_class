@@ -219,9 +219,9 @@ ABI names for registers serve as a standardized way to designate the purpose and
 
 ![lab2code](https://github.com/ananya343B/pes_asic_class/assets/142582353/2f6b3976-fab5-435e-aabc-643d924f30fb)
 
-#### Assembly code:!
+#### Assembly code:
 
-[assembly_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/629c1e6d-f9bb-41f5-b9d1-585c82b0b081)
+![assembly_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/629c1e6d-f9bb-41f5-b9d1-585c82b0b081)
 
 #### Output:
 
