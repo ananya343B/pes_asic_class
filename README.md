@@ -7,6 +7,7 @@ Physical VLSI Design for ASIC.
 
 The repository is a guide for ASIC flow from basics.
 # Day 1
+### Introduction to RISCV ISA and GNU compiler toolchain
 ### Introduction
 ### Flow : HLL -> ALP -> Binary -> (HDL) -> GDS
 #### 1. HLL -> High level language (c , c++) 
@@ -104,4 +105,37 @@ Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
   Output:
 
   ![signed_op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5cadeae9-df14-4c5d-845d-5af1826195ff)
+
+
+  # Day 2
+  ### Introduction to ABI and basic verification flow
+
+  ### Types of Instruction based on encoding format
+
+1. **R-Type (Register-Type):**
+   - These instructions operate on registers and have a fixed format for their operands.
+   - Examples: ADD, SUB, AND, OR, XOR, SLL, SRL, SRA, SLT, SLTU
+
+2. **I-Type (Immediate-Type):**
+   - These instructions have an immediate operand and one register operand.
+   - Examples: ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI, LB, LH, LW, LBU, LHU, JALR
+
+3. **S-Type (Store-Type):**
+   - These instructions are used for storing values from registers to memory.
+   - Examples: SB, SH, SW
+
+4. **B-Type (Branch-Type):**
+   - These instructions perform conditional branching based on comparisons.
+   - Examples: BEQ, BNE, BLT, BGE, BLTU, BGEU
+
+5. **U-Type (Upper Immediate-Type):**
+   - These instructions have a larger immediate field for encoding larger constants.
+   - Examples: LUI, AUIPC
+
+6. **J-Type (Jump-Type):**
+   - These instructions are used for unconditional jumps and function calls.
+   - Examples: JAL
+  
+     
+  
 
