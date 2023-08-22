@@ -208,3 +208,12 @@ The choice of the number of registers in a processor's architecture, such as the
 ABI names for registers serve as a standardized way to designate the purpose and usage of specific registers within a software ecosystem. These names play a critical role in maintaining compatibility, optimizing code generation, and facilitating communication between different software components. 
 
 ![th4](https://github.com/ananya343B/pes_asic_class/assets/142582353/9772d6fe-b73c-4b29-b17f-2fc39a7db8d3)
+
+
+### Lab
+ We will use ABI to write a C program in ASM and check the result.
+ 
+ ![th5](https://github.com/ananya343B/pes_asic_class/assets/142582353/a3e930f6-417a-412e-a4e9-98d4f93ef560)
+
+#### C program to find sum of numbers from 1 to 9:
+
