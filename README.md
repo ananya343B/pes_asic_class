@@ -181,11 +181,24 @@ In big-endian representation, you store the most significant byte (MSB) at the l
 ### Load, Add and Store Instructions
 Load, Add, and Store instructions are fundamental operations in computer architecture and assembly programming. They are often used to manipulate data within a computer's memory and registers.
 
-Example `ld x10, 16(x23)`
+Example `ld x8, 16(x23)`
+
+![th2](https://github.com/ananya343B/pes_asic_class/assets/142582353/ee3d8ef6-a411-4313-bee9-4cc2fdd8dad9)
 
 In this Example
 - `ld` is the load double-word instruction.
-- `x10` is the destination register.
+- `x8` is the destination register.
 - `16(x23)` is the memory address pointed to by register `x5` (base address + offset).
+
+ 
+Example `add x8, x24, x8`
+
+![th3](https://github.com/ananya343B/pes_asic_class/assets/142582353/468facf3-3a36-4da0-a0e9-75c3c5b07044)
+
+
+In this Example
+- `add` is the add instruction.
+- `x8` is the destination register.
+- `x24` and `x8` are the source registers.
 
   
