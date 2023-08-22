@@ -217,3 +217,5 @@ ABI names for registers serve as a standardized way to designate the purpose and
 
 #### C program to find sum of numbers from 1 to 9:
 
+![lab2code](https://github.com/ananya343B/pes_asic_class/assets/142582353/2f6b3976-fab5-435e-aabc-643d924f30fb)
+
