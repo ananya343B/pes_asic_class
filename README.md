@@ -175,3 +175,17 @@ In little-endian representation, you store the least significant byte (LSB) at t
 2. **Big-Endian:**
 In big-endian representation, you store the most significant byte (MSB) at the lowest memory address and the least significant byte (LSB) at the highest memory address.
 
+![th1](https://github.com/ananya343B/pes_asic_class/assets/142582353/e6415a66-5c06-40fc-b30e-a58a093ff9f1)
+
+
+### Load, Add and Store Instructions
+Load, Add, and Store instructions are fundamental operations in computer architecture and assembly programming. They are often used to manipulate data within a computer's memory and registers.
+
+Example `ld x10, 16(x23)`
+
+In this Example
+- `ld` is the load double-word instruction.
+- `x10` is the destination register.
+- `16(x23)` is the memory address pointed to by register `x5` (base address + offset).
+
+  
