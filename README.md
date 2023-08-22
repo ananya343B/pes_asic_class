@@ -223,4 +223,9 @@ ABI names for registers serve as a standardized way to designate the purpose and
 
 [assembly_code](https://github.com/ananya343B/pes_asic_class/assets/142582353/629c1e6d-f9bb-41f5-b9d1-585c82b0b081)
 
+#### Output:
+
+![day2op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5d717325-2ce8-4138-831f-74b8cc6bde62)
+
+
 
