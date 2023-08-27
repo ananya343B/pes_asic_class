@@ -6,7 +6,13 @@
 Physical VLSI Design for ASIC.
 
 The repository is a guide for ASIC flow from basics.
-# Day 1
+
+<details>
+<summary> 
+ Day 1
+</summary>
+<br>
+ 
 ### Introduction to RISCV ISA and GNU compiler toolchain
 ### Introduction
 ### Flow : HLL -> ALP -> Binary -> (HDL) -> GDS
@@ -105,9 +111,13 @@ Range: Positive:[0,2^(n-1)-1]      Negative:[-1,2^(n-1)].
   Output:
 
   ![signed_op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5cadeae9-df14-4c5d-845d-5af1826195ff)
+</details>
 
-
-  # Day 2
+ <details>
+<summary> 
+ Day 2
+</summary>
+<br>
   ### Introduction to ABI and basic verification flow
 
   ### Types of Instruction based on encoding format
@@ -227,5 +237,4 @@ ABI names for registers serve as a standardized way to designate the purpose and
 
 ![day2op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5d717325-2ce8-4138-831f-74b8cc6bde62)
 
-
-
+</details>
