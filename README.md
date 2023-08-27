@@ -7,6 +7,7 @@ Physical VLSI Design for ASIC.
 
 The repository is a guide for ASIC flow from basics.
 
+#### Introduction and ABI
 <details>
 <summary> 
  Day 1
@@ -238,3 +239,28 @@ ABI names for registers serve as a standardized way to designate the purpose and
 ![day2op](https://github.com/ananya343B/pes_asic_class/assets/142582353/5d717325-2ce8-4138-831f-74b8cc6bde62)
 
 </details>
+
+#### RTL design using verilog with SKY130 technology
+<details>
+<summary> 
+ Day 3
+</summary>
+<br>
+
+### Introduction to iVerilog
+
+##### Simulator:
+Simulation is a technique of applying different input stimulus to the design at different times to check if the RTL code behaves the intended way. Essentially, simulation is a well-followed technique to verify the robustness of the design.
+
+How simulator works:
+
+Simulator looks for changes in the input signals and corresponding to them, the output is evaluated.
+
+##### Design:
+A Verilog design consists of a hierarchy of modules. Modules encapsulate design hierarchy, and communicate with other modules through a set of declared input, output, and bidirectional ports.
+
+##### Test bench:
+Testbench is a code module that describes the stimulus to a logic design and checks whether the design's outputs match its specification.
+
+
+
