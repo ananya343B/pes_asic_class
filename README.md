@@ -288,15 +288,13 @@ Load the source code and testbench for ```good_mux.v``` into iverilog simulator.
 
 It generates output file which is opened in gtkwave simulator.
 
-
+![Screenshot from 2023-08-27 15-48-23](https://github.com/ananya343B/pes_asic_class/assets/142582353/d0f77e0f-9c79-4449-a8f7-5f5155dc1f4c)
 
 The source code for ```good_mux.v``` and ```tb_good_mux.v``` are as follows:
 
+![Screenshot from 2023-08-27 15-53-09](https://github.com/ananya343B/pes_asic_class/assets/142582353/26fca6bf-d992-4c6f-a490-accf460375a6)
 
-
-
-
-
+![Screenshot from 2023-08-27 15-52-37](https://github.com/ananya343B/pes_asic_class/assets/142582353/dc20bac3-7410-4a9b-8f6f-37561a26ee39)
 
 
 
