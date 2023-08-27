@@ -297,4 +297,11 @@ The source code for ```good_mux.v``` and ```tb_good_mux.v``` are as follows:
 ![Screenshot from 2023-08-27 15-52-37](https://github.com/ananya343B/pes_asic_class/assets/142582353/dc20bac3-7410-4a9b-8f6f-37561a26ee39)
 
 
+### Introduction to yosys and Logic synthesis 
+
+
+##### Synthesizer 
+
+Tool for converting RTL to netlist.
+
 
