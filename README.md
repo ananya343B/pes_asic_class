@@ -300,9 +300,13 @@ The source code for ```good_mux.v``` and ```tb_good_mux.v``` are as follows:
 ### Introduction to yosys and Logic synthesis 
 
 
+
 ##### Synthesizer 
 
 Tool for converting RTL to netlist. 
+
+![Screenshot from 2023-08-27 16-41-03](https://github.com/ananya343B/pes_asic_class/assets/142582353/9fa9601e-7dd8-42df-8954-39ad8821b43d)
+
 Here we will be using yosys.
 
 ##### Yosys
@@ -328,6 +332,18 @@ Set of primary inputs and outputs will be the same as RTL.
 Same testbench can be used for synthesized netlist.
 
 ##### Introduction to Logic synthesis
+
+**Logic Synthesis**
+  - Logic synthesis is a process in digital design that transforms a high-level hardware description of a digital circuit, typically in a hardware description language (HDL) like Verilog or VHDL, into a lower-level representation composed of logic gates and flip-flops.
+  - The goal of logic synthesis is to optimize the design for various criteria such as performance, area, power consumption, and timing.
+
+**.lib**
+   - It is a collection of logical modules like And, Or, Not etc.
+   - It has different flavors of same gate like 2 input AND gate, 3 input AND gate etc with different performace speed.
+  
+ **Need for different flavours of gates**
+  - In order to make a circuit faster, the clock frequency should be high.
+  - For that, the time period of the clock should be as low as possible.
 
 
 
