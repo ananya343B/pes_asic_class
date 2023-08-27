@@ -391,6 +391,15 @@ To see the logic realised
   
 ![Screenshot from 2023-08-27 19-21-58](https://github.com/ananya343B/pes_asic_class/assets/142582353/6217e753-dc69-47ae-a81c-840b430b7a85)
 
+To write the netlist
 
+      ````write_verilog good_mux_netlist.v````
+      ````!gvim good_mux_netlist.v````
+     
+To view a simplified code
+     
+     ``` write_verilog -noattr good_mux_netlist.v```
+     ```!gvim good_mux_netlist.v```
 
+ 
 
