@@ -272,4 +272,21 @@ Test benche does not have primary inputs or outputs.
 
 ![Screenshot from 2023-08-27 14-49-37](https://github.com/ananya343B/pes_asic_class/assets/142582353/b6cd9d93-767b-46dd-8d19-10df560d4b59)
 
+##### Lab1 - Using iVerilog and gtkwave
+
+![Screenshot from 2023-08-27 15-49-04](https://github.com/ananya343B/pes_asic_class/assets/142582353/7c5282fe-73ee-4cec-bf31-903940626939)
+
+Create a directory called vsd.
+By using ```git clone``` we create a folder called ```sky130RTLDesignAndSynthesisWorkshop``` in ```vsd```.
+```verilog_files``` contains all the verilog source files and test bench files.
+
+![Screenshot from 2023-08-27 15-49-31](https://github.com/ananya343B/pes_asic_class/assets/142582353/84e8795e-548a-495c-b8b4-a13704a3a846)
+
+Load the source code and testbench for ````
+
+
+
+
+
+
 
