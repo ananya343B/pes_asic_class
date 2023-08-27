@@ -377,7 +377,19 @@ To syntheis the module
 ![Screenshot from 2023-08-27 19-19-53](https://github.com/ananya343B/pes_asic_class/assets/142582353/b47c7713-9942-4703-baf3-a34cae4e2c77)
 
 
+To generate the netlist
 
+  `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+
+ ![Screenshot from 2023-08-27 19-20-09](https://github.com/ananya343B/pes_asic_class/assets/142582353/9fc2f494-f200-4314-b30c-9267ea9cafcc)
+
+  It gives a report of what cells are used and the number of input and output signals.
+
+To see the logic realised
+
+  `show`
+  
+![Screenshot from 2023-08-27 19-21-58](https://github.com/ananya343B/pes_asic_class/assets/142582353/6217e753-dc69-47ae-a81c-840b430b7a85)
 
 
 
