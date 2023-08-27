@@ -347,15 +347,16 @@ Same testbench can be used for synthesized netlist.
   - For a smaller propagation time, we need faster cells.
   - To ensure that there are no HOLD issues at flip-flop B, we require slow cells.
 
-    **Faster Cells vs Slower Cells**
+**Faster Cells vs Slower Cells**
   - Load in digital circuit is of Capacitence.
   - Faster the charging or dicharging of capacitance, lesser is the cell delay.
   - However, for a quick charge/ discharge of capacitor, we need transistors capable of sourcing more     current i.e, we need **wide transistors**.
   - Wider transistors have lesser delay but consume more area and power.
   - Narrow transistors have more delay but consume less area and performance.
   - Faster cells come with a cost of area and power.
+  - Hence the cells are chosen for a design such that all contraints are met.
 
-
+#####
 
 
 
