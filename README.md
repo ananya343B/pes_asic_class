@@ -343,7 +343,18 @@ Same testbench can be used for synthesized netlist.
   
  **Need for different flavours of gates**
   - In order to make a circuit faster, the clock frequency should be high.
-  - For that, the time period of the clock should be as low as possible.
+  - For that, the time period of the clock should be as low as possible as fmax=1/tmin.
+  - For a smaller propagation time, we need faster cells.
+  - To ensure that there are no HOLD issues at flip-flop B, we require slow cells.
+
+    **Faster Cells vs Slower Cells**
+  - Load in digital circuit is of Capacitence.
+  - Faster the charging or dicharging of capacitance, lesser is the cell delay.
+  - However, for a quick charge/ discharge of capacitor, we need transistors capable of sourcing more     current i.e, we need **wide transistors**.
+  - Wider transistors have lesser delay but consume more area and power.
+  - Narrow transistors have more delay but consume less area and performance.
+  - Faster cells come with a cost of area and power.
+
 
 
 
