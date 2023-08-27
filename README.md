@@ -306,6 +306,9 @@ Tool for converting RTL to netlist.
 Here we will be using yosys.
 
 ##### Yosys
+Yosys is a framework for Verilog RTL synthesis. Yosys provides a collection of tools and algorithms to transform high level RTL to gate level representations which may be used forphysical implementation on hardware.
+
+Design and .lib files are taken in by the synthesizer to give a netlist file.Netlist is a representation of design in the form of standard cells.
 
 ![Screenshot from 2023-08-27 16-31-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/63ef4c2a-49a2-48c1-9ce5-ac58a495372f)
 
@@ -313,17 +316,18 @@ Here we will be using yosys.
 2) read_liberty - reads .lib file
 3) write_verilog - writes out netlist file
 
-Netlist is a representation of design in the form of standard cells.
-
 ##### Verify the synthesis
 
 ![Screenshot from 2023-08-27 16-37-08](https://github.com/ananya343B/pes_asic_class/assets/142582353/5b7e7fa2-3d88-4648-be9f-3030ffc81d2f)
+
+Netlist and testbench is fed to the iverilog simulator. A vcd file is generated which is fed to gtkwave simulator. 
 
 Stimulus must be the same as output observed during RTL simulation.
 
 Set of primary inputs and outputs will be the same as RTL.
 Same testbench can be used for synthesized netlist.
 
+##### Introduction to Logic synthesis
 
 
 
