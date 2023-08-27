@@ -263,5 +263,13 @@ A Verilog design consists of a hierarchy of modules. Modules encapsulate design 
 ##### Test bench:
 Testbench is a code module that describes the stimulus to a logic design and checks whether the design's outputs match its specification.
 
+![Screenshot from 2023-08-27 14-46-58](https://github.com/ananya343B/pes_asic_class/assets/142582353/8d608b57-b7ea-45c6-8901-828659e6c6a7)
+
+Design may have one or more primary inputs and one or more primary outputs.
+Test benche does not have primary inputs or outputs.
+
+##### Iverilog based simulation flow:
+
+![Screenshot from 2023-08-27 14-49-37](https://github.com/ananya343B/pes_asic_class/assets/142582353/b6cd9d93-767b-46dd-8d19-10df560d4b59)
 
 
