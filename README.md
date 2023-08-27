@@ -356,7 +356,27 @@ Same testbench can be used for synthesized netlist.
   - Faster cells come with a cost of area and power.
   - Hence the cells are chosen for a design such that all contraints are met.
 
-#####
+##### Lab - Yosys
+
+Invoking yosys:
+
+![Screenshot from 2023-08-27 19-16-20](https://github.com/ananya343B/pes_asic_class/assets/142582353/9826a37d-f87f-4c81-8759-bcd2272c2c47)
+
+To read the library
+    
+     ` ``read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+    
+To read the design
+
+    ```read_verilog good_mux.v```
+
+To syntheis the module
+
+      ``` synth -top good_mux```
+      
+![Screenshot from 2023-08-27 19-19-53](https://github.com/ananya343B/pes_asic_class/assets/142582353/b47c7713-9942-4703-baf3-a34cae4e2c77)
+
+
 
 
 
