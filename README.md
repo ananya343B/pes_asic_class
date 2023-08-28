@@ -533,4 +533,8 @@ Asynchronous Reset (R) input allows you to reset the flip-flop's state independe
 
 The clock input synchronizes the update of the flip-flop's output. The flip-flop's state is only updated when a rising or falling edge of the clock signal occurs, depending on the type of flip-flop.
 
+#### D flip flop with asynchronous set
+
+
+
 </details>
