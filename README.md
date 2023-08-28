@@ -452,9 +452,9 @@ We can observe all the different types and flavours of cells in .lib
 
 We can compare the power consumption and area of different flavours of and cells in the above image.
 
-### Heirarchical and Flat synthesis
+### Heirarchical and Flattened synthesis
 
-Heirarchical synthesis:
+##### Heirarchical synthesis:
 
 The hierarchy approach, sometimes known as the “divide and conquer” strategy, is breaking a module down into smaller units and then repeating the process on those units until the complexity of the smaller portions is manageable. The smaller modules and sub-circuits are synthesized individually and then integrated together. This approch helps designers to work on different parts of the design individually and helps manage the complexity of large modules.
 
@@ -494,7 +494,13 @@ Open ```multiple_modules_hier.v``` using ```!gvim multiple_modules_hier.v```
 
 ![multi_mod2](https://github.com/ananya343B/pes_asic_class/assets/142582353/615231ab-5e0b-4593-82b5-3f74981de248)
 
+##### Flattened synthesis:
 
+Flattening combines all the modules and sub-modules to produce a single entity. The entire design is synthesized as a single unit, without preserving the modular organization present in the original high-level description. It produces fast logic (by minimizing the levels of logic between the inputs and outputs) at the expense of the area increase.
+
+##### Lab:
+
+Follow the same steps as in heirarchical but use ```flatten``` before the ```show``` command to flatten the netlist.
 
 
 
