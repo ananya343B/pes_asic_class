@@ -421,7 +421,7 @@ To view a simplified code
 
 To view the contents in the .lib
 
-  `gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+  ```gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
 
 Use ```syn off``` to remove syntax.
 
@@ -429,7 +429,7 @@ Use ```syn off``` to remove syntax.
 
 The first line in the file `library ("sky130_fd_sc_hd__tt_025C_1v80") ` :
 
-   - tt : indicates variations due to process and here it indicates **Typical Process**.
+   - tt : indicates variations due to process and here it indicates typical Process.
    - 025C : indicates the variations due to temperatures where the silicon will be used.
    - 1v80 : indicates the variations due to the voltage levels where the silicon will be incorporated.
 
