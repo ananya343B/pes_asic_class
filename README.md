@@ -529,6 +529,10 @@ Else, on the positive edge of the clock, the stored value is updated at the outp
 
 #### D flip flop with asynchronous set
 
+When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
 
+Else, on positive edge of the clock, the stored value is updated at the output.
+
+##### D flip flop with synchronous reset 
 
 </details>
