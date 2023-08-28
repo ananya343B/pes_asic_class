@@ -399,8 +399,9 @@ To write the netlist
      
 To view a simplified code
      
-     ``` write_verilog -noattr good_mux_netlist.v```
-     ```!gvim good_mux_netlist.v```
+``` write_verilog -noattr good_mux_netlist.v```
+
+```!gvim good_mux_netlist.v```
      
 ![writing1](https://github.com/ananya343B/pes_asic_class/assets/142582353/1df99a5a-1ed9-4ba0-8420-75aab8a32913)
 
