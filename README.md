@@ -415,3 +415,40 @@ To view a simplified code
 </summary>
 <br>
 
+### Introduction to timing dot libs
+
+##### Lab
+
+To view the contents in the .lib
+
+  `gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+
+Use ```syn off`` to remove syntax.
+
+![Screenshot from 2023-08-28 08-13-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/b120b29c-d2ce-4621-93ab-ff80d1b1a1c4)
+
+The first line in the file `library ("sky130_fd_sc_hd__tt_025C_1v80") ` :
+
+   - tt : indicates variations due to process and here it indicates **Typical Process**.
+   - 025C : indicates the variations due to temperatures where the silicon will be used.
+   - 1v80 : indicates the variations due to the voltage levels where the silicon will be incorporated.
+
+The properties of the cell can be veiwed:
+
+![Screenshot from 2023-08-28 08-21-10](https://github.com/ananya343B/pes_asic_class/assets/142582353/edb662d5-79df-49d1-8d4e-427aadfc6d97)
+
+
+`` :se nu`` - to enable line numbers.
+`` /cell`` and ``:g//`` - to list all the cells.
+
+![Screenshot from 2023-08-28 08-33-34](https://github.com/ananya343B/pes_asic_class/assets/142582353/2c9dddf5-70d4-4769-8822-b993a53434fb)
+
+We can observe all the different types and flavours of cells in .lib
+
+```:vsp``` - to compare cells.
+
+![Screenshot from 2023-08-28 16-09-59](https://github.com/ananya343B/pes_asic_class/assets/142582353/bc7d7149-4d2a-462c-b840-933c1d712014)
+
+We can compare the power consumption and area of different flavours of and cells in the above image.
+
+
