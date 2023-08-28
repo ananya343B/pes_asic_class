@@ -476,6 +476,15 @@ The hierarchy approach, sometimes known as the “divide and conquer” strategy
 
 ![Screenshot from 2023-08-28 16-39-35](https://github.com/ananya343B/pes_asic_class/assets/142582353/7bb61349-ca55-472c-8fda-fc530ab629d0)
 
+To set ```multiple_modules.v``` as top module - ```synth -top multiple_modules```
+
+To view net-list - ```show multiple_modules```
+
+![Screenshot from 2023-08-28 16-41-30](https://github.com/ananya343B/pes_asic_class/assets/142582353/46176939-7e6f-4b33-af88-b1d80f340fac)
+
+
+
+
 ![Screenshot from 2023-08-28 16-40-43](https://github.com/ananya343B/pes_asic_class/assets/142582353/3b8ab335-16af-4df5-ab9a-7590e832a7ce)
 
 
