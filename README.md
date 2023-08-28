@@ -452,3 +452,4 @@ We can observe all the different types and flavours of cells in .lib
 We can compare the power consumption and area of different flavours of and cells in the above image.
 
 
+</details>
