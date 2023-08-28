@@ -523,15 +523,9 @@ Flip-flops are used in digital circuits to help eliminate glitches, which are un
 
 ##### D flip flop with asynchronous reset 
 
-A D flip-flop with an asynchronous reset is a digital circuit component that can store a single bit of data and has an additional input for resetting its state. The D (data) input represents the data to be stored, while the asynchronous reset input resets the flip-flop's state regardless of the clock signal.
+When the reset is high, the output of the flip-flop is forced to 0, irrespective of the clock signal.
 
-Here's how it functions:
-
-The current state of the flip-flop is determined by the value at the D input. If the D input is HIGH (1), the flip-flop will store the value 1. If the D input is LOW (0), the flip-flop will store the value 0.
-
-Asynchronous Reset (R) input allows you to reset the flip-flop's state independently of the clock signal. When the reset input is activated (typically by making it LOW), the flip-flop's output is forced to a known state. If the reset input is HIGH, the reset function is inactive.
-
-The clock input synchronizes the update of the flip-flop's output. The flip-flop's state is only updated when a rising or falling edge of the clock signal occurs, depending on the type of flip-flop.
+Else, on the positive edge of the clock, the stored value is updated at the output.
 
 #### D flip flop with asynchronous set
 
