@@ -541,5 +541,12 @@ Else, on positive edge of the clock, the stored value is updated at the output.
 
 ##### D flip flop with asynchronous reset and synchronous reset 
 
+When the asynchronous resest is high, the output is forced to 0.
+
+When the synchronous reset is high at the positive edge of the clock, the output is forced to 0.
+
+Else, on the positive edge of the clock, the stored value is updated at the output.
+
+Here, it is a combination of both synchronous and asynchronous reset DFF.
 
 </details>
