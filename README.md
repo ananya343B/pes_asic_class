@@ -485,7 +485,7 @@ To view net-list - ```show multiple_modules```
 
 ![Screenshot from 2023-08-28 16-41-30](https://github.com/ananya343B/pes_asic_class/assets/142582353/46176939-7e6f-4b33-af88-b1d80f340fac)
 
-We can observe that AND gate and OR gate are replaced as ```sub_module1``` and ```sub_module2``
+We can observe that AND gate and OR gate are replaced as ```sub_module1``` and ```sub_module2```
 ` in the above representation.
 
 Open ```multiple_modules_hier.v``` using ```!gvim multiple_modules_hier.v```
