@@ -364,22 +364,22 @@ Invoking yosys:
 
 To read the library
     
-     ` ``read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
     
 To read the design
 
-    ```read_verilog good_mux.v```
+```read_verilog good_mux.v```
 
 To syntheis the module
 
-      ``` synth -top good_mux```
+``` synth -top good_mux```
       
 ![Screenshot from 2023-08-27 19-19-53](https://github.com/ananya343B/pes_asic_class/assets/142582353/b47c7713-9942-4703-baf3-a34cae4e2c77)
 
 
 To generate the netlist
 
-  `abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
 
  ![Screenshot from 2023-08-27 19-20-09](https://github.com/ananya343B/pes_asic_class/assets/142582353/9fc2f494-f200-4314-b30c-9267ea9cafcc)
 
@@ -387,7 +387,7 @@ To generate the netlist
 
 To see the logic realised
 
-  `show`
+```show```
   
 ![Screenshot from 2023-08-27 19-21-58](https://github.com/ananya343B/pes_asic_class/assets/142582353/6217e753-dc69-47ae-a81c-840b430b7a85)
 
@@ -427,7 +427,7 @@ Use ```syn off``` to remove syntax.
 
 ![Screenshot from 2023-08-28 08-13-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/b120b29c-d2ce-4621-93ab-ff80d1b1a1c4)
 
-The first line in the file `library ("sky130_fd_sc_hd__tt_025C_1v80") ` :
+`library("sky130_fd_sc_hd__tt_025C_1v80") ` :
 
    - tt : indicates variations due to process and here it indicates typical Process.
    - 025C : indicates the variations due to temperatures where the silicon will be used.
