@@ -517,5 +517,7 @@ Opening the file using ```!gvim multiple_modules_flat.v```
 
 Flip-flops are fundamental components in design. They are essential for storing binary information in digital circuits, enabling sequential logic and memory functions. Flip-flops play a crucial role in synchronizing data and controlling the flow of information within integrated circuits, making them essential for building complex digital systems like processors, memory units, and other digital devices.
 
+##### Flip flops and glitches
 
+Flip-flops are used in digital circuits to help eliminate glitches, which are unwanted, transient, and unpredictable pulses or voltage spikes in a circuit. By storing an synchronising data, flip-flops can help filter out glitchesand ensure that only stable and intended signals propogate through the circuit. The sequential nature of flip-flops allows them to delay signals and prevent short-lived glitches from affecting the overall behavior of the circuit. This is particularly important in synchronous digital systems where accurate and reliable signal propagation is critical.
 </details>
