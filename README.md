@@ -458,6 +458,24 @@ Heirarchical synthesis:
 
 The hierarchy approach, sometimes known as the “divide and conquer” strategy, is breaking a module down into smaller units and then repeating the process on those units until the complexity of the smaller portions is manageable. The smaller modules and sub-circuits are synthesized individually and then integrated together. This approch helps designers to work on different parts of the design individually and helps manage the complexity of large modules.
 
+##### Lab:
+
+ Use ``` gvim multiple_modules.v``` to open the file.
+
+ ![Screenshot from 2023-08-28 16-34-56](https://github.com/ananya343B/pes_asic_class/assets/142582353/db42a31c-9697-494f-bbb8-edd941e0f690)
+
+ The file ```multiple_modules.v``` contains two sub-modules ```sub_module1``` and ```sub_module2```.
+
+ Launch yosys and do the following:
+ 
+![Screenshot from 2023-08-28 16-37-30](https://github.com/ananya343B/pes_asic_class/assets/142582353/a75f5368-c282-4343-aa44-f117b9f68dcd)
+
+![Screenshot from 2023-08-28 16-38-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/7ca504f8-bff0-45bf-a385-97accabaadb1)
+
+![Screenshot from 2023-08-28 16-39-09](https://github.com/ananya343B/pes_asic_class/assets/142582353/1549ada9-2c03-455b-be04-7403f0f8b536)
+
+![Screenshot from 2023-08-28 16-39-35](https://github.com/ananya343B/pes_asic_class/assets/142582353/7bb61349-ca55-472c-8fda-fc530ab629d0)
+
 
 
 </details>
