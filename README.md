@@ -405,3 +405,13 @@ To view a simplified code
 
 
 ![writing2](https://github.com/ananya343B/pes_asic_class/assets/142582353/d6e24c76-22f4-430e-be72-f10a79e3d5cc)
+
+</details>
+
+
+<details>
+<summary> 
+ Day 4
+</summary>
+<br>
+
