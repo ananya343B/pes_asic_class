@@ -527,7 +527,7 @@ When the reset is high, the output of the flip-flop is forced to 0, irrespective
 
 Else, on the positive edge of the clock, the stored value is updated at the output.
 
-#### D flip flop with asynchronous set
+##### D flip flop with asynchronous set
 
 When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
 
