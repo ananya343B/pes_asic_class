@@ -452,5 +452,12 @@ We can observe all the different types and flavours of cells in .lib
 
 We can compare the power consumption and area of different flavours of and cells in the above image.
 
+### Heirarchical and Flat synthesis
+
+Heirarchical synthesis:
+
+The hierarchy approach, sometimes known as the “divide and conquer” strategy, is breaking a module down into smaller units and then repeating the process on those units until the complexity of the smaller portions is manageable. The smaller modules and sub-circuits are synthesized individually and then integrated together. This approch helps designers to work on different parts of the design individually and helps manage the complexity of large modules.
+
+
 
 </details>
