@@ -423,7 +423,7 @@ To view the contents in the .lib
 
   `gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib`
 
-Use ```syn off`` to remove syntax.
+Use ```syn off``` to remove syntax.
 
 ![Screenshot from 2023-08-28 08-13-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/b120b29c-d2ce-4621-93ab-ff80d1b1a1c4)
 
@@ -439,6 +439,7 @@ The properties of the cell can be veiwed:
 
 
 `` :se nu`` - to enable line numbers.
+
 `` /cell`` and ``:g//`` - to list all the cells.
 
 ![Screenshot from 2023-08-28 08-33-34](https://github.com/ananya343B/pes_asic_class/assets/142582353/2c9dddf5-70d4-4769-8822-b993a53434fb)
