@@ -400,6 +400,8 @@ To view a simplified code
      
      ``` write_verilog -noattr good_mux_netlist.v```
      ```!gvim good_mux_netlist.v```
+     
+![writing1](https://github.com/ananya343B/pes_asic_class/assets/142582353/1df99a5a-1ed9-4ba0-8420-75aab8a32913)
 
- 
 
+![writing2](https://github.com/ananya343B/pes_asic_class/assets/142582353/d6e24c76-22f4-430e-be72-f10a79e3d5cc)
