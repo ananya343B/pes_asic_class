@@ -393,8 +393,9 @@ To see the logic realised
 
 To write the netlist
 
-      ````write_verilog good_mux_netlist.v````
-      ````!gvim good_mux_netlist.v````
+```write_verilog good_mux_netlist.v```
+
+```!gvim good_mux_netlist.v```
      
 To view a simplified code
      
