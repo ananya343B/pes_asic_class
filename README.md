@@ -549,7 +549,7 @@ When the set is high, the output of the flip-flop is forced to 1, irrespective o
 
 Else, on positive edge of the clock, the stored value is updated at the output.
 
-```gvim dff_syncres.v```
+```gvim dff_syncres.v``` 
 
 ![Screenshot from 2023-08-28 22-09-21](https://github.com/ananya343B/pes_asic_class/assets/142582353/4eb64989-24cf-4f63-ac9d-46480021c351)
 
