@@ -502,6 +502,15 @@ Flattening combines all the modules and sub-modules to produce a single entity. 
 
 Follow the same steps as in heirarchical but use ```flatten``` before the ```show``` command to flatten the netlist.
 
+![Screenshot from 2023-08-28 19-38-46](https://github.com/ananya343B/pes_asic_class/assets/142582353/2587cb97-ea36-4ff9-9d2c-e1a564538e04)
+
+Opening the file using ```!gvim multiple_modules_flat.v```
+
+![Screenshot from 2023-08-28 19-40-11](https://github.com/ananya343B/pes_asic_class/assets/142582353/ebf66455-50a1-4f92-a4f3-ae1eb35acaad)
+
+![Screenshot from 2023-08-28 19-40-45](https://github.com/ananya343B/pes_asic_class/assets/142582353/1a9bc09a-ec61-4664-ab03-38a204139526)
+
+
 
 
 
