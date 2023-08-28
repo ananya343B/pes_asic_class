@@ -527,17 +527,31 @@ When the reset is high, the output of the flip-flop is forced to 0, irrespective
 
 Else, on the positive edge of the clock, the stored value is updated at the output.
 
+```gvim dff_asyncres.v```
+
+![Screenshot from 2023-08-28 22-10-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/7b3b6771-1536-4aa2-af5f-1f36ca318600)
+
+
 ##### D flip flop with asynchronous set
 
 When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
 
 Else, on positive edge of the clock, the stored value is updated at the output.
 
+```gvim dff_async_set.v```
+
+![Screenshot from 2023-08-28 22-10-02](https://github.com/ananya343B/pes_asic_class/assets/142582353/2960b5d1-6b76-4e65-80bd-75fc190dad89)
+
+
 ##### D flip flop with synchronous reset 
 
 When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
 
 Else, on positive edge of the clock, the stored value is updated at the output.
+
+```gvim dff_syncres.v```
+
+![Screenshot from 2023-08-28 22-09-21](https://github.com/ananya343B/pes_asic_class/assets/142582353/4eb64989-24cf-4f63-ac9d-46480021c351)
 
 ##### D flip flop with asynchronous reset and synchronous reset 
 
@@ -548,5 +562,10 @@ When the synchronous reset is high at the positive edge of the clock, the output
 Else, on the positive edge of the clock, the stored value is updated at the output.
 
 Here, it is a combination of both synchronous and asynchronous reset DFF.
+
+```gvim dff_asyncres_syncres.v```
+
+![Screenshot from 2023-08-28 22-08-46](https://github.com/ananya343B/pes_asic_class/assets/142582353/08447636-ef5d-41d4-a4a0-9611c7302587)
+
 
 </details>
