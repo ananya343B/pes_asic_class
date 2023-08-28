@@ -511,7 +511,11 @@ Opening the file using ```!gvim multiple_modules_flat.v```
 ![Screenshot from 2023-08-28 19-40-45](https://github.com/ananya343B/pes_asic_class/assets/142582353/1a9bc09a-ec61-4664-ab03-38a204139526)
 
 
+### Various flops styles and optimization
 
+##### Need for flip flops
+
+Flip-flops are fundamental components in design. They are essential for storing binary information in digital circuits, enabling sequential logic and memory functions. Flip-flops play a crucial role in synchronizing data and controlling the flow of information within integrated circuits, making them essential for building complex digital systems like processors, memory units, and other digital devices.
 
 
 </details>
