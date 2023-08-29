@@ -739,3 +739,25 @@ Netlist:
 
 
 </details>
+
+
+<details>
+<summary> 
+ Day 5
+</summary>
+<br>
+
+### Combinational and Sequential Optimizations
+
+### Combinational logic optimizations:
+
+- Combinational logic?? refers to a type of digital logic design where the output is solely determined by the current input values, and there are no memory elements involved. Examples of combinational circuits include adders, multiplexers, demultiplexers, comparators, and more.
+
+- Squeezing the logic to get the most optimised design (Area and power savings)
+
+
+
+
+
+
+</details>
