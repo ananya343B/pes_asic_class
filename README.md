@@ -660,7 +660,8 @@ Here, it is a combination of both synchronous and asynchronous reset DFF.
 Case 1:
 
 ```gvim mult_2.v```
-photo
+
+![mul2_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/1d353aec-6f54-48d4-a285-fe901e5303b8)
 
 input a - 3 bit
 
@@ -686,7 +687,9 @@ Launch yosys
 
 ```show```
 
-2 photos
+![mul2_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/f03c774a-b705-4ab3-b97f-785e2ca4e180)
+
+![mul2_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/de156518-031a-4de7-8fd4-49237dbe1fad)
 
 Netlist
 
@@ -694,7 +697,7 @@ Netlist
 
 ```!gvim mul2_netlist.v```
 
-photo
+![mul2_netl](https://github.com/ananya343B/pes_asic_class/assets/142582353/e52cc5e9-ec6f-4259-b36b-29c9f18a5b29)
 
 Case 2:
 
@@ -705,7 +708,8 @@ output y - 6 bit
 relation - y=9*a
 
 ```gvim mult_8.v```
-photo
+
+![mul8_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/301d7dcd-b1cd-401c-ad08-331e4921ab96)
 
 Synthesis:
 
@@ -721,16 +725,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![mul8_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/dc5dba90-1ecf-4e8d-bb12-57b3007a728b)
+
+![mul8_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/1ca0b57e-a6a2-4796-80c4-965b1151954e)
 
 Netlist:
 
 ```write_verilog -noattr mul8_netlist.v```
 
  ```!gvim mult8_netlist.v```
-
- photo
  
+![mul8_netl](https://github.com/ananya343B/pes_asic_class/assets/142582353/a89699ca-2b7f-4254-bc4d-e0f4f13622ab)
 
 
 </details>
