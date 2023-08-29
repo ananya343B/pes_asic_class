@@ -534,6 +534,8 @@ Else, on the positive edge of the clock, the stored value is updated at the outp
 ![Screenshot from 2023-08-28 22-10-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/7b3b6771-1536-4aa2-af5f-1f36ca318600)
 
 
+
+
 ##### D flip flop with asynchronous set
 
 When the set is high, the output of the flip-flop is forced to 1, irrespective of the clock signal.
