@@ -541,7 +541,7 @@ Simulation:
 
 ```gtkwave tb_dff_asyncres.vcd```
 
-
+![dff_asyncres_timing](https://github.com/ananya343B/pes_asic_class/assets/142582353/dceedb31-f734-403a-83fe-6afe395a7894)
 
 Synthesis:
 
@@ -559,8 +559,7 @@ Open yosys
 
 ```show```
 
-
-
+![dff_asyncres_rep](https://github.com/ananya343B/pes_asic_class/assets/142582353/91c55f61-b9c9-4a4f-8458-f8241ffe6556)
 
 
 ##### D flip flop with asynchronous set
@@ -581,6 +580,7 @@ Simulation
 
 ```gtkwave tb_dff_async_set.vcd```
 
+![dff_asyncset_timing](https://github.com/ananya343B/pes_asic_class/assets/142582353/379342e3-940d-4806-8b05-a6e9cf947b6a)
 
 Synthesis:
 
@@ -598,7 +598,7 @@ Open yosys
 
 ```show```
 
-
+![dff_asyncset_rep](https://github.com/ananya343B/pes_asic_class/assets/142582353/0621ba03-39a9-46f2-b936-622e0f724a94)
 
 
 ##### D flip flop with synchronous reset 
@@ -619,6 +619,7 @@ Simulation
 
 ```gtkwave tb_dff_syncres.vcd```
 
+![dff_syncres_timing](https://github.com/ananya343B/pes_asic_class/assets/142582353/986d2ae8-9ec6-4ef7-85d5-7b8610a5cd04)
 
 Synthesis:
 
@@ -635,6 +636,8 @@ Open yosys
 ``` abc -liberty ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
 
 ```show```
+
+![dff_synchres_rep](https://github.com/ananya343B/pes_asic_class/assets/142582353/af0a7668-2002-4acf-befe-0a1382132dab)
 
 
 ##### D flip flop with asynchronous reset and synchronous reset 
