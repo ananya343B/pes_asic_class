@@ -560,7 +560,7 @@ Open yosys
 ```show```
 
 
-![Screenshot from 2023-08-29 06-39-20](https://github.com/ananya343B/pes_asic_class/assets/142582353/eefeb9c9-8d33-4184-8381-c9350c44d42f)
+
 
 
 ##### D flip flop with asynchronous set
@@ -599,7 +599,6 @@ Open yosys
 ```show```
 
 
-![Screenshot from 2023-08-29 06-48-44](https://github.com/ananya343B/pes_asic_class/assets/142582353/de05624e-f7cd-4a0f-ab07-4544add0c3c3)
 
 
 ##### D flip flop with synchronous reset 
