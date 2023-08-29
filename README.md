@@ -807,7 +807,7 @@ Netlist:
 
 ### Lab
 
-##### Combinational logic
+##### Combinational logic optimization
 
 **opt_check**
 
@@ -949,6 +949,173 @@ Launch yosys
 ![multi_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/54a8aa67-0907-4939-9a30-a6910b31444f)
 
 
+##### Sequential logic optimization
 
+**dff_const1**
+
+```gvim dff_const1.v```
+photo
+
+Simulation:
+
+```iverilog dff_const1.v tb_dff_const1.v```
+
+```./a.out```
+
+```gtkwave tb_dff_const1.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog dff_const1.v```
+
+```synth -top dff_const1```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**dff_const2**
+
+```gvim dff_const2.v```
+photo
+
+Simulation:
+
+```iverilog dff_const2.v tb_dff_const2.v```
+
+```./a.out```
+
+```gtkwave tb_dff_const2.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog dff_const2.v```
+
+```synth -top dff_const2```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**dff_const3**
+
+```gvim dff_const3.v```
+photo
+
+Simulation:
+
+```iverilog dff_const3.v tb_dff_const3.v```
+
+```./a.out```
+
+```gtkwave tb_dff_const3.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog dff_const3.v```
+
+```synth -top dff_const3```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**dff_const4**
+
+```gvim dff_const4.v```
+photo
+
+Simulation:
+
+```iverilog dff_const4.v tb_dff_const4.v```
+
+```./a.out```
+
+```gtkwave tb_dff_const4.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog dff_const4.v```
+
+```synth -top dff_const4```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**dff_const5**
+
+```gvim dff_const5.v```
+photo
+
+Simulation:
+
+```iverilog dff_const5.v tb_dff_const5.v```
+
+```./a.out```
+
+```gtkwave tb_dff_const5.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog dff_const5.v```
+
+```synth -top dff_const5```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+##### Sequential optimizations for unused outputs
 
 </details>
