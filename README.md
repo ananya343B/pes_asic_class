@@ -751,12 +751,43 @@ Netlist:
 
 ### Combinational logic optimizations:
 
-- Combinational logic?? refers to a type of digital logic design where the output is solely determined by the current input values, and there are no memory elements involved. Examples of combinational circuits include adders, multiplexers, demultiplexers, comparators, and more.
+- Combinational logic refers to a type of digital logic design where the output is solely determined by the current input values, and there are no memory elements involved. Examples of combinational circuits include adders, multiplexers, demultiplexers, comparators, and more.
 
 - Squeezing the logic to get the most optimised design (Area and power savings)
 
+##### Optimisation techniques
 
+1)Constant Propogation (Direct Optimisation)
+        - identify signals that are derived from constant inputs or other signals with constant values.
+        - Replace these signals with their constant values throughout the logic.
+        - Update downstream logic accordingly, simplifying the circuit.
+        - This optimization eliminates unnecessary logic and reduces gate count, improving circuit efficiency and performance.
+ 2)Boolean logic optimization (using K-map or Quine McKluskey)
+        - Apply Boolean algebra rules to simplify logic expressions, using techniques like factorization, distribution, and absorption.
+        - Use Karnaugh Maps (K-Maps) to identify patterns and group terms for simplification.
+        - Eliminate redundant terms and simplify expressions further.
+        - This optimization reduces the number of gates, improves circuit performance, and enhances overall efficiency.
 
+### Sequential Logic Optimizations
+
+- Sequential Logic is a fundamental concept in digital circuit design that involves elements capable of storing information (memory elements like flip-flops and latches) and producing outputs based not only on current inputs but also on past inputs and internal states.It forms the basis for many digital devices, including microcontrollers, processors, and communication systems.
+- Designers must carefully evaluate the trade-offs between speed, power, and complexity to create effective and optimized sequential logic designs.
+
+##### Optimisation techniques
+
+i)Basic
+
+1)Sequential constant propagation
+        - Sequential constant propagation is an optimization technique that involves identifying and replacing intermediate signals within a sequential circuit with their constant values. This technique aims to eliminate unnecessary calculations and logic, reducing the complexity of the circuit.
+
+ii) Advanced
+
+   1)State optimization
+        - State optimization focuses on reducing the number of states in a finite state machine (FSM) or reducing the complexity of state transitions. By eliminating redundant or unreachable states and simplifying the transition logic, designers can create more efficient and streamlined state machines.
+   2)Retiming
+        - Retiming is a technique used to balance the delay of a sequential circuit by moving flip-flops within the design. By strategically relocating flip-flops along the critical path, designers can minimize propagation delays and improve the overall performance of the circuit.
+   3)Sequential logic cloning (Floor Plan Aware Synthesis)
+        - Sequential logic cloning involves duplicating a portion of a sequential circuit to optimize its performance. This technique is particularly useful for critical paths where excessive delays are present. By replicating a section of the circuit and introducing additional registers, designers can reduce the delay along the path.
 
 
 
