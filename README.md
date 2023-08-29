@@ -559,7 +559,6 @@ Open yosys
 
 ```show```
 
-![Screenshot from 2023-08-29 06-37-33](https://github.com/ananya343B/pes_asic_class/assets/142582353/9652a5d8-f111-4d2c-a316-398311667ee0)
 
 ![Screenshot from 2023-08-29 06-39-20](https://github.com/ananya343B/pes_asic_class/assets/142582353/eefeb9c9-8d33-4184-8381-c9350c44d42f)
 
@@ -599,7 +598,6 @@ Open yosys
 
 ```show```
 
-![Screenshot from 2023-08-29 06-47-56](https://github.com/ananya343B/pes_asic_class/assets/142582353/28a69598-03e3-4bc6-801e-ce027bc183f1)
 
 ![Screenshot from 2023-08-29 06-48-44](https://github.com/ananya343B/pes_asic_class/assets/142582353/de05624e-f7cd-4a0f-ab07-4544add0c3c3)
 
