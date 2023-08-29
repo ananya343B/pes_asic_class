@@ -813,7 +813,7 @@ Netlist:
 
 ```gvim opt_check.v```
 
-photo
+![oc1_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/f2bbc05f-cb23-4141-89c9-5335eeb64283)
 
 Synthesis:
 
@@ -833,13 +833,16 @@ For constant Propogation optimisation:
 
 ```show```
 
-2 photo
+![oc1_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/51592d86-8ab2-4436-9a39-2b4ed553fc4b)
+
+![oc1_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/33038392-8143-466a-9303-9de62e3a6457)
+
 
 **opt_check2**
 
 ```gvim opt_check2.v```
 
-photo
+![oc2_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/17d9ed01-5cf5-41d5-b5ac-89cda648a241)
 
 Synthesis:
 
@@ -857,13 +860,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![oc2_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/b06c7568-7336-4094-bf16-5e0d81f3c54c)
+
+![oc2_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/f44718b9-4644-4ff9-8b75-c9dd980302c0)
+
 
 **opt_check3**
 
 ```gvim opt_check3.v```
 
-photo
+![oc3_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/1eaac6d3-3985-4eb3-a8d8-d7436c6d9cd7)
+
 
 Synthesis:
 
@@ -881,13 +888,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![oc3_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/84896a1b-8169-4b87-89fb-eafe640b1fdd)
+
+![oc3_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/0cf821d3-9e4c-4e33-93c3-285cd3f7606f)
+
 
 **opt_check4**
 
 ```gvim opt_check4.v```
 
-photo
+![oc4_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/e1675b28-f749-4fea-a229-95ffc1e4337f)
+
 
 Synthesis:
 
@@ -905,13 +916,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![oc4_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/06d8dca5-7991-4ae2-91b7-0af08cb2e5d2)
+
+![oc4_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/42b41188-9207-4739-a373-bd1b24c5085f)
+
 
 **multiple_module_opt**
 
 ```gvim multiple_module_opt.v```
 
-photo
+![multi_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/1b476b01-d4f2-465f-b0c3-687bd1a28823)
+
 
 Synthesis:
 
@@ -929,5 +944,11 @@ Launch yosys
 
 ```show```
 
-2 photo
+![multi_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/0d169160-596c-4cd9-aa0b-6e44d2f7fe0e)
+
+![multi_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/54a8aa67-0907-4939-9a30-a6910b31444f)
+
+
+
+
 </details>
