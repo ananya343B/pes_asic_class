@@ -1118,4 +1118,70 @@ Launch yosys
 
 ##### Sequential optimizations for unused outputs
 
+**counter_opt**
+
+```gvim counter_opt.v```
+photo
+
+Simulation:
+
+```iverilog counter_opt.v tb_counter_opt.v```
+
+```./a.out```
+
+```gtkwave tb_counter_opt.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog counter_opt.v```
+
+```synth -top counter_opt```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**counter_opt2**
+
+```gvim counter_opt2.v```
+photo
+
+Simulation:
+
+```iverilog counter_opt2.v tb_counter_opt2.v```
+
+```./a.out```
+
+```gtkwave tb_counter_opt2.vcd```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog counter_opt2.v```
+
+```synth -top counter_opt2```
+
+```dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
 </details>
