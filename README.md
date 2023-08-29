@@ -533,7 +533,35 @@ Else, on the positive edge of the clock, the stored value is updated at the outp
 
 ![Screenshot from 2023-08-28 22-10-39](https://github.com/ananya343B/pes_asic_class/assets/142582353/7b3b6771-1536-4aa2-af5f-1f36ca318600)
 
+Simulation:
 
+``` iverilog dff_asyncres.v tb_dff_asyncres.v```
+
+```./a.out```
+
+```gtkwave tb_dff_asyncres.vcd```
+
+
+
+Synthesis:
+
+Open yosys
+
+``` read_liberty -lib ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
+
+```read_verilog dff_asyncres.v```
+
+```synth -top dff_asyncres```
+
+``` dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
+
+``` abc -liberty ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
+
+```show```
+
+![Screenshot from 2023-08-29 06-37-33](https://github.com/ananya343B/pes_asic_class/assets/142582353/9652a5d8-f111-4d2c-a316-398311667ee0)
+
+![Screenshot from 2023-08-29 06-39-20](https://github.com/ananya343B/pes_asic_class/assets/142582353/eefeb9c9-8d33-4184-8381-c9350c44d42f)
 
 
 ##### D flip flop with asynchronous set
@@ -545,6 +573,7 @@ Else, on positive edge of the clock, the stored value is updated at the output.
 ```gvim dff_async_set.v```
 
 ![Screenshot from 2023-08-28 22-10-02](https://github.com/ananya343B/pes_asic_class/assets/142582353/2960b5d1-6b76-4e65-80bd-75fc190dad89)
+
 
 
 ##### D flip flop with synchronous reset 
