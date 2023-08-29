@@ -759,23 +759,23 @@ Netlist:
 
 **1) Constant Propogation (Direct Optimisation)**
 
-        - identify signals that are derived from constant inputs or other signals with constant values.
+- identify signals that are derived from constant inputs or other signals with constant values.
         
-        - Replace these signals with their constant values throughout the logic.
+- Replace these signals with their constant values throughout the logic.
         
-        - Update downstream logic accordingly, simplifying the circuit.
+- Update downstream logic accordingly, simplifying the circuit.
         
-        - This optimization eliminates unnecessary logic and reduces gate count, improving circuit efficiency and performance.
+- This optimization eliminates unnecessary logic and reduces gate count, improving circuit efficiency and performance.
         
  **2) Boolean logic optimization (using K-map or Quine McKluskey)**
  
-        - Apply Boolean algebra rules to simplify logic expressions, using techniques like factorization, distribution, and absorption.
+- Apply Boolean algebra rules to simplify logic expressions, using techniques like factorization, distribution, and absorption.
+
+- Use Karnaugh Maps (K-Maps) to identify patterns and group terms for simplification.
         
-        - Use Karnaugh Maps (K-Maps) to identify patterns and group terms for simplification.
+- Eliminate redundant terms and simplify expressions further.
         
-        - Eliminate redundant terms and simplify expressions further.
-        
-        - This optimization reduces the number of gates, improves circuit performance, and enhances overall efficiency.
+- This optimization reduces the number of gates, improves circuit performance, and enhances overall efficiency.
 
 ### Sequential Logic Optimizations
 
