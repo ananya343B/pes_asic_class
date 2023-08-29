@@ -954,7 +954,8 @@ Launch yosys
 **dff_const1**
 
 ```gvim dff_const1.v```
-photo
+
+![dc1_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/79f99feb-a9fa-4a12-8e13-1a978f2e91cb)
 
 Simulation:
 
@@ -964,7 +965,7 @@ Simulation:
 
 ```gtkwave tb_dff_const1.vcd```
 
-photo
+![dc1_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/74c47c31-d337-4f9d-a23c-9226d5d0483a)
 
 Synthesis:
 
@@ -982,12 +983,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![dc1_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/0c0f6c9c-7fcc-4fa1-b3be-49a451c48cda)
+
+![dc1_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/6e33ff6e-0a2d-4e6b-bc30-a187b1e994ea)
+
 
 **dff_const2**
 
+
 ```gvim dff_const2.v```
-photo
+
+![dc2_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/44aee1ff-07e0-43a4-9e66-128c37242d9a)
 
 Simulation:
 
@@ -997,7 +1003,7 @@ Simulation:
 
 ```gtkwave tb_dff_const2.vcd```
 
-photo
+![dc2_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/8259659f-12d9-43d5-8386-e00eee365ac7)
 
 Synthesis:
 
@@ -1015,12 +1021,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![dc2_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/615bb96f-4185-444b-9e69-e0c6043b4772)
+
+![dc2_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/027b098c-ca67-43a2-8d31-5d1576969676)
+
 
 **dff_const3**
 
 ```gvim dff_const3.v```
-photo
+
+![dc3_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/b8c453ab-3cf9-48ec-941a-01d61dcf6217)
+
 
 Simulation:
 
@@ -1030,7 +1041,8 @@ Simulation:
 
 ```gtkwave tb_dff_const3.vcd```
 
-photo
+![dc3_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/e596bafa-5b6b-492f-b5f2-8275a7bece3e)
+
 
 Synthesis:
 
@@ -1048,12 +1060,16 @@ Launch yosys
 
 ```show```
 
-2 photo
+![dc3_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/44baf893-6536-4726-a3d4-1044be456421)
+
+![dc3_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/2ee3d35c-eac7-4de6-8a87-eb6d3974bf27)
+
 
 **dff_const4**
 
 ```gvim dff_const4.v```
-photo
+![dc4_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/1dfa58c1-7aaa-4cfa-8c34-8eb308eab08c)
+
 
 Simulation:
 
@@ -1063,7 +1079,8 @@ Simulation:
 
 ```gtkwave tb_dff_const4.vcd```
 
-photo
+![dc4_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/d8a43fb0-0dd0-4f46-915b-e1795a3ed493)
+
 
 Synthesis:
 
@@ -1081,12 +1098,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![dc4_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/926b869a-867b-4ebf-88ff-741658db190d)
+
+![dc4_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/bb8a741a-9e24-498d-a6b5-02a15142d0b8)
+
 
 **dff_const5**
 
 ```gvim dff_const5.v```
-photo
+
+![dc_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/ba209159-58da-4abb-a1dc-6ebf41bda003)
+
 
 Simulation:
 
@@ -1096,7 +1118,7 @@ Simulation:
 
 ```gtkwave tb_dff_const5.vcd```
 
-photo
+![dc_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/40fa2007-24e6-4b5d-bd90-5d97d60019d5)
 
 Synthesis:
 
@@ -1114,24 +1136,18 @@ Launch yosys
 
 ```show```
 
-2 photo
+![dc_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/9e9708b3-14a2-4b8f-8831-dc1fd90b2897)
+
+![dc_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/9ec851b6-519c-4e76-b5cb-7b80c3b567f6)
+
 
 ##### Sequential optimizations for unused outputs
 
 **counter_opt**
 
 ```gvim counter_opt.v```
-photo
 
-Simulation:
-
-```iverilog counter_opt.v tb_counter_opt.v```
-
-```./a.out```
-
-```gtkwave tb_counter_opt.vcd```
-
-photo
+![co_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/57f68073-fe63-43da-b1d9-0d54f63a8965)
 
 Synthesis:
 
@@ -1149,22 +1165,17 @@ Launch yosys
 
 ```show```
 
-2 photo
+![co_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/7d5a9ff7-eee0-4883-a07d-68026f5db8f9)
+
+![co_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/197f057a-e76d-456d-ac87-abd26f18c627)
+
 
 **counter_opt2**
 
 ```gvim counter_opt2.v```
-photo
 
-Simulation:
+![co2_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/701f9bbb-7747-4081-b6ee-5c270c8d305d)
 
-```iverilog counter_opt2.v tb_counter_opt2.v```
-
-```./a.out```
-
-```gtkwave tb_counter_opt2.vcd```
-
-photo
 
 Synthesis:
 
@@ -1182,6 +1193,10 @@ Launch yosys
 
 ```show```
 
-2 photo
+![co2_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/9b48a11c-e924-421f-8d8d-013b4f6d28f1)
+
+![co2_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/a7f8e120-ce20-4f87-8ab7-c57523127432)
+
+
 
 </details>
