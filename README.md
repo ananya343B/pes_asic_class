@@ -805,6 +805,129 @@ Netlist:
    
 - Sequential logic cloning involves duplicating a portion of a sequential circuit to optimize its performance. This technique is particularly useful for critical paths where excessive delays are present. By replicating a section of the circuit and introducing additional registers, designers can reduce the delay along the path.
 
+### Lab
 
+##### Combinational logic
 
+**opt_check**
+
+```gvim opt_check.v```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog opt_check.v```
+
+```synth -top opt_check```
+
+For constant Propogation optimisation:
+
+```opt_clean -purge```
+ 
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**opt_check2**
+
+```gvim opt_check2.v```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog opt_check2.v```
+
+```synth -top opt_check2```
+
+```opt_clean -purge```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**opt_check3**
+
+```gvim opt_check3.v```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog opt_check3.v```
+
+```synth -top opt_check3```
+
+```opt_clean -purge```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**opt_check4**
+
+```gvim opt_check4.v```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog opt_check4.v```
+
+```synth -top opt_check4```
+
+```opt_clean -purge```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+**multiple_module_opt**
+
+```gvim multiple_module_opt.v```
+
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog multiple_module_opt.v```
+
+```synth -top multiple_module_opt```
+
+```opt_clean -purge```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
 </details>
