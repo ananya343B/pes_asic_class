@@ -655,4 +655,82 @@ Here, it is a combination of both synchronous and asynchronous reset DFF.
 ![Screenshot from 2023-08-28 22-08-46](https://github.com/ananya343B/pes_asic_class/assets/142582353/08447636-ef5d-41d4-a4a0-9611c7302587)
 
 
+### Interesting optimizations
+
+Case 1:
+
+```gvim mult_2.v```
+photo
+
+input a - 3 bit
+
+output y - 4 bit
+
+relation - y=2*a
+
+Number 'a' multiplied by 2 is appended by bit 0 at the right hand side, i.e  2*a={a,0}.
+
+Therefore no extra hardware is required for multiplication of a number by powers of 2.
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
+
+```read_verilog mult_2.v```
+
+```synth -top mul2```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_250C_1v80.lib```
+
+```show```
+
+2 photos
+
+Netlist
+
+```write_verilog -noattr mul2_netlist.v```
+
+```!gvim mul2_netlist.v```
+
+photo
+
+Case 2:
+
+input a - 3 bit
+
+output y - 6 bit
+
+relation - y=9*a
+
+```gvim mult_8.v```
+photo
+
+Synthesis:
+
+Launch yosys
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog mult_8.v```
+
+```synth -top mult8```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+2 photo
+
+Netlist:
+
+```write_verilog -noattr mul8_netlist.v```
+
+ ```!gvim mult8_netlist.v```
+
+ photo
+ 
+
+
 </details>
