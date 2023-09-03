@@ -1296,7 +1296,46 @@ Blocking and non-blocking statements are two types of assignment statements used
 
 ### Caveats with blocking statements
 
-Using blocking statements (`=`) in Verilog can introduce certain caveats and potential issues in your designs. Here are some important considerations to keep in mind:
+Using blocking statements (`=`) in Verilog can introduce certain caveats and potential issues in your designs. 
+
+Example:
+
+	module code(input clk,
+ 		    input reset,
+       		    input d,
+	     	    output reg q);
+	reg q0;
+ 	always@(posedge clk,posedge reset)
+  	begin
+   	if(reset)
+    		begin
+      		q0=1'b0;
+		q=1'b0;
+  		end
+    	else
+     		begin
+       		q=q0;
+	 	q0=d;
+   		end
+     	end
+      endmodule
+
+The code works in normal condition in the above example. However, if the order of statements  
+
+`q=q0;
+q0=d;`
+
+are changed to
+
+`q0=d;
+q=q0;`
+
+only one flop will be generated instead of two. To rectify the problem, we use non-blocking statements, where the order does not matter.
+
+Therefore non-blocking statements are used in writing sequential logic.
+
+
+Here are some important considerations to keep in mind to avoid such caveats:
 
 1. **Sequential Execution:** Blocking assignments are executed sequentially, meaning that each assignment must complete before the next one starts. This can lead to unintended delays and might not accurately capture concurrent behavior.
 
