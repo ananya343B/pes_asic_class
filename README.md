@@ -1477,7 +1477,9 @@ Here are some important considerations to keep in mind to avoid such caveats:
 ```cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files```
 
 ```gvim blocking_caveat.v```
-photo
+
+![blockc_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/a1749b25-ae9b-4159-9061-8f2a11fcae7d)
+
 
 **Simualtion**
 
@@ -1487,7 +1489,7 @@ photo
 
 ```gtkwave tb_blocking_caveat.vcd```
 
-photo
+![blockc_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/d5682f59-b923-482e-b4c8-a71e8787cfca)
 
 **Synthesis**
 
@@ -1500,7 +1502,10 @@ photo
 ```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
 
 ```show```
-2 photo
+
+![blockc_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/5ec2a283-58c8-4669-a0fc-c03cd152c176)
+
+![blockc_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/1fe99e5d-65d6-4d56-a606-00b6958857a5)
 
 **Gate-Level Simulation**
 
@@ -1509,9 +1514,8 @@ photo
 ```./a.out```
 
 ```gtkwave tb_blocking_caveat.vcd```
-photo
 
-
+![blockc_gls](https://github.com/ananya343B/pes_asic_class/assets/142582353/b8b78ca6-13da-4492-b97f-713a2b8eea7a)
 
 
 </details>
