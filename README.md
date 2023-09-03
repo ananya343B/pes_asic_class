@@ -1260,13 +1260,53 @@ Blocking and non-blocking statements are two types of assignment statements used
  
 - **Non-blocking Assignment**
 
-    - Non-blocking assignments in Verilog use the <= operator for assignment.
+    - Non-blocking assignments in Verilog use the `<=` operator for assignment.
       
     - A non-blocking assignment schedules the assignment to take place at the end of the current time step without affecting the order of execution of subsequent statements.
       
     - It is commonly used to model concurrent behavior, particularly in sequential logic circuits, by allowing multiple assignments to occur simultaneously within the same time step.
     -
     - It represents hardware modeling and concurrent behavior more accurately.
+
+
+### Caveats with blocking statements
+
+Using blocking statements (`=`) in Verilog can introduce certain caveats and potential issues in your designs. Here are some important considerations to keep in mind:
+
+1. **Sequential Execution:** Blocking assignments are executed sequentially, meaning that each assignment must complete before the next one starts. This can lead to unintended delays and might not accurately capture concurrent behavior.
+
+2. **Race Conditions:** When multiple blocking assignments are used to update the same variable within a procedural block, the final value of the variable is determined by the order of execution. This can lead to race conditions where simulation results might not match hardware behavior.
+
+3. **Combinational Logic:** In combinational logic circuits, using only blocking assignments might not accurately model concurrent behavior. Combinational logic should ideally use non-blocking assignments (`<=`) to capture concurrent signal updates within the same time step.
+
+4. **Sensitivity Lists:** Procedural blocks using blocking assignments should have accurate sensitivity lists to ensure that the code executes when the appropriate events occur. Incorrect sensitivity lists can lead to unexpected simulation behavior.
+
+5. **Simulation vs. Hardware Behavior:** The sequential execution of blocking assignments in simulation might not accurately represent the concurrent behavior of hardware circuits.
+
+6. **Nested Blocking Blocks:** Nesting blocking assignment blocks within each other can lead to unintended delays and can complicate the design.
+
+7. **Timing Analysis:** If used improperly, blocking assignments in synchronous logic (such as setting flip-flop inputs) can lead to incorrect timing analysis results.
+
+8. **State Machines:** When describing state machines, using only blocking assignments might lead to incorrect state transitions if transitions are not carefully managed.
+
+
+**Best Practices to Mitigate Caveats:**
+
+1. **Use Non-Blocking Assignments:** For modeling concurrent behavior in sequential logic circuits, use non-blocking assignments (`<=`) to avoid race conditions and capture the expected hardware behavior.
+
+2. **Reserve Blocking for Sequential Logic:** Use blocking assignments (`=`) for simple sequential operations where one operation must complete before the next one starts.
+
+3. **Minimize Multiple Blocking Assignments:** Avoid multiple blocking assignments to the same variable within a single procedural block to prevent race conditions.
+
+4. **Sensitivity List Integrity:** Ensure that sensitivity lists in your procedural blocks are accurate and capture the necessary triggers for execution.
+
+5. **Separate Logic Types:** Clearly separate sequential logic (clocked processes) from combinational logic (non-blocking assignments) to maintain accurate modeling.
+
+6. **Avoid Nesting Blocks:** Minimize nesting of blocking assignment blocks to avoid unintended timing effects.
+
+7. **Consult Simulation Warnings:** Pay attention to simulation tool warnings or messages related to the usage of blocking assignments. They can offer insights into potential issues.
+
+
 
 </details>
 
