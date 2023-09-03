@@ -1470,7 +1470,48 @@ Here are some important considerations to keep in mind to avoid such caveats:
 ![badm_gls](https://github.com/ananya343B/pes_asic_class/assets/142582353/34b787da-9c61-4437-821f-0f7e228902f5)
 
 
-##### 
+##### Synth-Sim mismatch for blocking statements
+
+##### blocking_caveat
+
+```cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files```
+
+```gvim blocking_caveat.v```
+photo
+
+**Simualtion**
+
+```iverilog blocking_caveat.v tb_blocking_caveat.v```
+
+```./a.out```
+
+```gtkwave tb_blocking_caveat.vcd```
+
+photo
+
+**Synthesis**
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog blocking_caveat.v```
+
+```synth -top blocking_caveat```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+2 photo
+
+**Gate-Level Simulation**
+
+```iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v```
+
+```./a.out```
+
+```gtkwave tb_blocking_caveat.vcd```
+photo
+
+
 
 
 </details>
