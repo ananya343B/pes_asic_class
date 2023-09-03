@@ -1204,7 +1204,7 @@ Launch yosys
 
 <details>
 <summary> 
- Day 5
+ Day 6
 </summary>
 <br>
 
@@ -1243,6 +1243,31 @@ Discrepancies or inconsistencies that can arise between the behavior of a digita
 	- Non standard Verilog coding
    
 Addressing and minimizing synthesis-simulation mismatch is crucial for ensuring the correctness and reliability of digital designs. Careful validation, consistency in constraints, and understanding the intricacies of the synthesis process are key steps in mitigating this type of issue.
+
+### Missing sensitivity list
+
+Simulator always looks for activity, ie. it acts upon the output only when there is a change in the input.
+
+Example: Below is the code for a 2:1 mux.
+
+	module mux(input i0,
+ 		      input i1,
+	 	      input sel,
+		      output reg y);
+	always@(sel)
+ 		begin
+   		if(sel)
+     			y=i1;
+		else
+  			y=i0;
+     		end
+       endmodule
+
+Here always is evaluated only when there is a change in `sel`.
+
+It acts as a latch.
+
+If  ```always@(*)```  is used instead, y is evaluated for any change in `i0,i1,sel`. Therefore it acts like a mux.
      
 ### Blocking and Non-blocking statements in verilog
 
