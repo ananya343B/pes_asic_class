@@ -1208,7 +1208,7 @@ Launch yosys
 </summary>
 <br>
 
-# GLS, Blocking vs Non-blocking, Synthesis simulation mismatch
+### GLS, Blocking vs Non-blocking, Synthesis simulation mismatch
 
 ### GLS
 
