@@ -1231,6 +1231,42 @@ Launch yosys
 
 ![gsl1](https://github.com/ananya343B/pes_asic_class/assets/142582353/3129bf4e-f560-498a-9a5e-2093109dd726)
 
+### Synthesis-Simulation mismatch
+
+Discrepancies or inconsistencies that can arise between the behavior of a digital design as simulated and its behavior after synthesis.
+
+- **Reasons**
+	- Missing sensitivity List
+   
+	- Blocking vs Non-blocking assignments
+   
+	- Non standard Verilog coding
+   
+Addressing and minimizing synthesis-simulation mismatch is crucial for ensuring the correctness and reliability of digital designs. Careful validation, consistency in constraints, and understanding the intricacies of the synthesis process are key steps in mitigating this type of issue.
+     
+### Blocking and Non-blocking statements in verilog
+
+Blocking and non-blocking statements are two types of assignment statements used in Verilog, a hardware description language. They serve different purposes in describing how assignments are executed within a procedural block of code, such as an 'always' or 'initial' block.
+
+- **Blocking Assignment**
+
+    - Blocking assignments in Verilog use the `=` operator for assignment.
+      
+    - A blocking assignment is executed sequentially, meaning the next statement will not be executed until the current assignment is complete.
+      
+    - The value on the right side of the assignment is immediately assigned to the left-hand side, and the process waits for the assignment to complete before moving on.
+      
+    - It represents a procedural programming-style behavior.
+ 
+- **Non-blocking Assignment**
+
+    - Non-blocking assignments in Verilog use the <= operator for assignment.
+      
+    - A non-blocking assignment schedules the assignment to take place at the end of the current time step without affecting the order of execution of subsequent statements.
+      
+    - It is commonly used to model concurrent behavior, particularly in sequential logic circuits, by allowing multiple assignments to occur simultaneously within the same time step.
+    -
+    - It represents hardware modeling and concurrent behavior more accurately.
 
 </details>
 
