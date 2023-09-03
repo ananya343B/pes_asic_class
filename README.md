@@ -1375,6 +1375,8 @@ Here are some important considerations to keep in mind to avoid such caveats:
 
 ##### ternary_operator_mux
 
+```cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files```
+
 ```gvim teranry_operator_mux.v```
 
 ![tom_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/154d10b0-f2e1-4267-be2c-3e2548868834)
@@ -1390,6 +1392,8 @@ Here are some important considerations to keep in mind to avoid such caveats:
 ![tom_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/afd0186f-511b-4ea8-84ae-f54827f39a49)
 
 **Synthesis**
+
+```yosys```
 
 ```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
 
@@ -1415,6 +1419,59 @@ Here are some important considerations to keep in mind to avoid such caveats:
 ```gtkwave tb_bad_mux.vcd```
 
 ![tom_gls](https://github.com/ananya343B/pes_asic_class/assets/142582353/010f0fa4-c3c7-46ec-9fd3-b15917b07fed)
+
+
+##### bad_mux
+
+```cd vsd/sky130RTLDesignAndSynthesisWorkshop/verilog_files```
+
+```gvim bad_mux.v```
+
+![badm_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/11640a89-8df8-45ee-8146-1913afa61354)
+
+**Simualtion**
+
+```iverilog bad_mux.v tb_bad_mux.v```
+
+```./a.out```
+
+```gtkwave tb_bad_mux.vcd```
+
+![badm_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/e0c57712-9316-4002-8305-cf43ab261dbd)
+
+**Synthesis**
+
+```yosys```
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog bad_mux.v```
+
+```synth -top bad_mux```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+
+![badm_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/3f643dc1-9704-420f-89fd-7f5695b349fb)
+
+
+![badm_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/d2d9efe2-9492-463c-b9c0-971b0e219021)
+
+
+**Gate-Level Simulation**
+
+```iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux_net.v tb_bad_mux.v```
+
+```./a.out```
+
+```gtkwave tb_bad_mux.vcd```
+
+![badm_gls](https://github.com/ananya343B/pes_asic_class/assets/142582353/34b787da-9c61-4437-821f-0f7e228902f5)
+
+
+##### 
+
 
 </details>
 
