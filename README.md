@@ -1376,7 +1376,8 @@ Here are some important considerations to keep in mind to avoid such caveats:
 ##### ternary_operator_mux
 
 ```gvim teranry_operator_mux.v```
-photo
+
+![tom_file](https://github.com/ananya343B/pes_asic_class/assets/142582353/154d10b0-f2e1-4267-be2c-3e2548868834)
 
 **Simulation**
 
@@ -1386,7 +1387,7 @@ photo
 
 ```gtkwave tb_ternary_operator_mux.vcd```
 
-photo
+![tom_sim](https://github.com/ananya343B/pes_asic_class/assets/142582353/afd0186f-511b-4ea8-84ae-f54827f39a49)
 
 **Synthesis**
 
@@ -1399,18 +1400,21 @@ photo
 ```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
 
 ```show```
-2 photo
 
-**GLS to Gate-Level Simulation**
+![tom_syn1](https://github.com/ananya343B/pes_asic_class/assets/142582353/195db590-ff36-47f1-a3a7-6c203f29af0b)
+
+
+![tom_syn2](https://github.com/ananya343B/pes_asic_class/assets/142582353/79bc9dd5-3b15-4cf8-bf5b-7c1fe11d53bd)
+
+**Gate-Level Simulation**
 
 ```iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v```
 
 ```./a.out```
 
 ```gtkwave tb_bad_mux.vcd```
-1 phtoto
 
-
+![tom_gls](https://github.com/ananya343B/pes_asic_class/assets/142582353/010f0fa4-c3c7-46ec-9fd3-b15917b07fed)
 
 </details>
 
