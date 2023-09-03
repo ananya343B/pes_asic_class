@@ -1200,3 +1200,37 @@ Launch yosys
 
 
 </details>
+
+
+<details>
+<summary> 
+ Day 5
+</summary>
+<br>
+
+# GLS, Blocking vs Non-blocking, Synthesis simulation mismatch
+
+### GLS
+
+- **What is GLS??**
+  
+	- It is a verification process in digital design where the gate-level netlist of a design is simulated to ensure that it behaves as expected after the synthesis process. In gate-level simulation, the design is represented using actual gate-level components (AND gates, OR gates, flip-flops, etc.) and their interconnections.
+   
+	- Run the testbench with netlist as the design under test
+   
+	- Netlist is logically same as RTL code (same TB will allign with the design)
+   
+- **Why GLS??**
+	- To verify the logical correctness of design under synthesis
+   
+	- Ensuring the timing of the design is met
+   
+	- It helps designers catch post-synthesis errors, timing issues, and other potential design flaws.
+   
+- **GLS using iverilog**
+
+![gsl1](https://github.com/ananya343B/pes_asic_class/assets/142582353/3129bf4e-f560-498a-9a5e-2093109dd726)
+
+
+</details>
+
