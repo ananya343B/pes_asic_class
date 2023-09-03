@@ -1371,6 +1371,46 @@ Here are some important considerations to keep in mind to avoid such caveats:
 7. **Consult Simulation Warnings:** Pay attention to simulation tool warnings or messages related to the usage of blocking assignments. They can offer insights into potential issues.
 
 
+### Lab
+
+##### ternary_operator_mux
+
+```gvim teranry_operator_mux.v```
+photo
+
+**Simulation**
+
+```iverilog ternary_operator_mux.v tb_ternary_operator_mux.v```
+
+```./a.out```
+
+```gtkwave tb_ternary_operator_mux.vcd```
+
+photo
+
+**Synthesis**
+
+```read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```read_verilog ternary_operator_mux.v```
+
+```synth -top ternary_operator_mux```
+
+```abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib```
+
+```show```
+2 photo
+
+**GLS to Gate-Level Simulation**
+
+```iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_mux_net.v tb_ternary_operator_mux.v```
+
+```./a.out```
+
+```gtkwave tb_bad_mux.vcd```
+1 phtoto
+
+
 
 </details>
 
