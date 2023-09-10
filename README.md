@@ -1539,6 +1539,15 @@ Open terminal and follow the steps below:
 
 ![working_2](https://github.com/ananya343B/pes_asic_class/assets/142582353/1d77549d-5920-44f8-bc07-ea1afecb1ce5)
 
+</details>
+
+<details>
+<summary> 
+ Day 7
+</summary>
+<br>
 
 
 
+
+</details>
